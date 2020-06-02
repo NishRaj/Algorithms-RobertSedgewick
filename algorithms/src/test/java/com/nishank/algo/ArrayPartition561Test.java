@@ -1,9 +1,7 @@
 package com.nishank.algo;
 
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import com.nishank.algo.ArrayPartition561;
 
 
 public class ArrayPartition561Test {
