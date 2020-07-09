@@ -34,4 +34,5 @@ public class ArrayPartition561 {
 	    }
 	    return sum;
 	}
+	
 }
