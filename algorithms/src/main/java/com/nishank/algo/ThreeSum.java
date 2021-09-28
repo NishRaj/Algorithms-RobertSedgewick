@@ -1,6 +1,8 @@
+/*
 package com.nishank.algo;
 
 import edu.princeton.cs.algs4.In;
+
 
 /******************************************************************************
  *  Compilation:  javac ThreeSum.java
@@ -27,11 +29,13 @@ import edu.princeton.cs.algs4.In;
  *  % java ThreeSum 4Kints.txt 
  *  4039
  *
- ******************************************************************************/
+ ******************************************************************************//*
+
 
 import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.Stopwatch;
 
+*/
 /**
  *  The {@code ThreeSum} class provides static methods for counting
  *  and printing the number of triples in an array of integers that sum to 0
@@ -45,18 +49,21 @@ import edu.princeton.cs.algs4.Stopwatch;
  *
  *  @author Robert Sedgewick
  *  @author Kevin Wayne
- */
+ *//*
+
 public class ThreeSum {
 
     // Do not instantiate.
     private ThreeSum() { }
 
-    /**
+    */
+/**
      * Prints to standard output the (i, j, k) with {@code i < j < k}
      * such that {@code a[i] + a[j] + a[k] == 0}.
      *
      * @param a the array of integers
-     */
+     *//*
+
     public static void printAll(int[] a) {
         int n = a.length;
         for (int i = 0; i < n; i++) {
@@ -70,14 +77,16 @@ public class ThreeSum {
         }
     } 
 
-    /**
+    */
+/**
      * Returns the number of triples (i, j, k) with {@code i < j < k}
      * such that {@code a[i] + a[j] + a[k] == 0}.
      *
      * @param  a the array of integers
      * @return the number of triples (i, j, k) with {@code i < j < k}
      *         such that {@code a[i] + a[j] + a[k] == 0}
-     */
+     *//*
+
     public static int count(int[] a) {
         int n = a.length;
         int count = 0;
@@ -93,13 +102,15 @@ public class ThreeSum {
         return count;
     } 
 
-    /**
+    */
+/**
      * Reads in a sequence of integers from a file, specified as a command-line argument;
      * counts the number of triples sum to exactly zero; prints out the time to perform
      * the computation.
      *
      * @param args the command-line arguments
-     */
+     *//*
+
     public static void main(String[] args)  { 
         //In in = new In(args[0]);
     	In in = new In("8Kints.txt");
@@ -112,6 +123,7 @@ public class ThreeSum {
     } 
 } 
 
+*/
 /******************************************************************************
  *  Copyright 2002-2020, Robert Sedgewick and Kevin Wayne.
  *
@@ -134,6 +146,8 @@ public class ThreeSum {
  *
  *  You should have received a copy of the GNU General Public License
  *  along with algs4.jar.  If not, see http://www.gnu.org/licenses.
- ******************************************************************************/
+ ******************************************************************************//*
 
 
+
+*/
